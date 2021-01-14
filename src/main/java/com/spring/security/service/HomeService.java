@@ -4,11 +4,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class HomeService {
-    public void getHome(){
-        System.out.println("home");
+    public String getHome(){
+        return "home";
     }
 
-    public void getAddress(){
-        System.out.println("address");
+    public String getAddress(){
+        return "Nepal";
     }
 }
